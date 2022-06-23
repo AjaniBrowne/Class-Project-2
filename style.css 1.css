@@ -1,0 +1,156 @@
+*{
+    background-color:whitesmoke;
+    border-style: solid;
+    line-height: 40px;
+    flex-wrap: wrap;
+}
+
+title{
+    font-weight: bolder;
+    
+}
+
+header{
+    text-align: center;
+    background-color: darkblue;
+    line-height: 60px;
+
+}
+
+
+header h1{
+    color:black;
+    border-style: none;
+    font-size: x-large;
+}
+
+header ul{
+    text-align: left;
+    border-style: none
+}
+
+nav ul{
+    background-color:aquamarine;
+    text-align:right;
+    font-weight:normal;
+    border-style: none
+    
+}
+
+nav ul :hover{
+    cursor: pointer;
+}
+
+nav a{
+    background-color: aquamarine;
+}
+
+
+main{
+    width:100%;
+    border-style: solid;
+
+}
+
+main h1{
+    border-style:solid;
+    text-align: center;
+}
+
+main p{
+    border-style: solid;
+    background-color: aquamarine;
+    font-size: x-large;
+}
+
+figure{
+    background-color: aquamarine;
+    border-style: none;
+}
+
+
+figure img{
+    max-width: 100px;
+    max-height:100px;
+    border-style: none;  
+}
+
+figcaption{
+    background-color: aquamarine;
+}
+
+
+section{
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+section p img{
+    max-width: 50%;
+    max-height: 50%;
+    border: 5px solid black;
+}
+
+section p{
+    background-color:aquamarine ;
+    border-style:none
+
+}
+
+section img{
+    max-width: 50%;
+    max-height: 50%;
+    border: 5px solid black;
+}
+
+article{
+    background-color:aquamarine;
+
+
+}
+
+article p{
+    border-style: none;
+    background-color: aquamarine;
+}
+
+article img{
+    max-width: 50%;
+    max-height: 50%;
+
+}
+
+footer ul{
+    background-color: aquamarine;
+}
+
+footer a{
+    border-style: none;
+    display:inline-flex;
+    background-color: aquamarine;
+}
+
+footer a:hover{
+    color:goldenrod
+}
+
+@media screen and (max-width: 992px) {
+ aside{
+    background-color: deeppink;
+ }
+}
+
+@media screen and (max-width: 768px) {
+    article p{
+        background-color: darkolivegreen;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+   article h1,
+    footer h1{
+        background-color: orangered;
+    }
+    
+}
